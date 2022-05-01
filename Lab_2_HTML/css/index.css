@@ -1,0 +1,1312 @@
+                            /*Настройки верхня панель*/
+                            
+                            .nav_link {
+                                color: #fff;
+                                text-decoration: none;
+                                transition: 0.4s linear;
+                            }
+                            
+                            .nav_link:hover {
+                                color: #ffd900;
+                            }
+                            
+                            .navimg {
+                                height: 25px;
+                                width: 25px;
+                            }
+                            
+                            .Logo {
+                                font-size: larger;
+                                size: 20px;
+                                text-shadow: 3px 3px #818181;
+                            }
+                            
+                            .menu_link {
+                                font-size: large;
+                                color: rgb(0, 0, 0);
+                                text-decoration: none;
+                                transition: 1s;
+                                margin-left: 30px;
+                            }
+                            
+                            .menu_link:hover {
+                                color: rgb(255, 68, 0)
+                            }
+                            
+                            .MenuNav {
+                                display: inline-block;
+                                margin-left: 180px;
+                                margin-top: -20px;
+                                text-shadow: 1px 1px #818181;
+                            }
+                            
+                            .menu {
+                                margin-left: 150px;
+                            }
+                            /*/////////////////////////////////////////////////
+//////////////////////////////////////////////////*/
+                            
+                            .topnav {
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                z-index: 10;
+                                width: 100%;
+                            }
+                            
+                            .nav {
+                                display: inline-block;
+                                margin-left: 25%;
+                                margin-top: 10px;
+                            }
+                            
+                            .topmenu {
+                                display: inline-block;
+                                margin-left: 15px;
+                            }
+                            
+                            .nav1 {
+                                margin-top: 0px;
+                                height: 50px;
+                                background-color: #0c3094
+                            }
+                            
+                            .nav2 {
+                                margin-top: 0px;
+                                height: 75px;
+                                background-color: #fff;
+                            }
+                            /*/////////////////////////////////////////////////
+//////////////////////////////////////////////////*/
+                            
+                            body {
+                                margin: 0 0;
+                                padding: 0;
+                            }
+                            
+                            .GlobalBody {
+                                margin-top: 125px;
+                            }
+                            
+                            .part1 {}
+                            
+                            .part2 {}
+                            /*/////////////////////////////////////////////////
+//////////////////////////////////////////////////*/
+                            
+                            .Welcome {
+                                display: flex;
+                                height: 400px;
+                                width: 100%;
+                                background-image: url(../img/topfon.jpg  );
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                background-position: center;
+                            }
+                            
+                            .WelcomeTxt {
+                                margin-top: 50px;
+                                margin-left: 37.5%;
+                                color: #fff;
+                                text-shadow: 3px 3px #000000;
+                            }
+                            
+                            .WelcomeButton {
+                                margin-top: 250px;
+                                margin-left: -350px;
+                                display: inline-block;
+                            }
+                            
+                            .clickerW1 {
+                                background-color: rgb(16, 175, 82);
+                                color: rgb(255, 255, 255);
+                                height: 75px;
+                                width: 150px;
+                                text-shadow: 1px 1px #000000;
+                                border-radius: 9px;
+                            }
+                            
+                            .clickerW2 {
+                                background-color: rgb(255, 255, 255);
+                                color: rgb(95, 95, 95);
+                                height: 75px;
+                                width: 150px;
+                                text-shadow: 1px 1px #000000;
+                                border-radius: 9px;
+                            }
+                            /*/////////////////////////////////////////////////
+//////////////////////////////////////////////////*/
+                            
+                            .OurServices {
+                                display: flex;
+                                flex-direction: column;
+                                height: 600px;
+                                background-color: rgb(255, 255, 255);
+                            }
+                            
+                            .OurServicesText {
+                                margin-top: 75px;
+                                margin-left: 45%;
+                                text-shadow: 4px 1px #aaa7a7;
+                            }
+                            
+                            .ServicesmBlocks {
+                                display: flex;
+                                margin-top: 50px;
+                                background-color: rgb(255, 255, 255);
+                            }
+                            
+                            .ServicesmBlock1 {
+                                display: inline;
+                                margin-left: 150px;
+                                height: 200px;
+                                width: 325px;
+                                background-image: url(../img/menegment.jpg);
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                background-position: center;
+                            }
+                            
+                            .ServicesmBlock2 {
+                                display: inline;
+                                margin-left: 150px;
+                                height: 200px;
+                                width: 325px;
+                                background-image: url(../img/business.jpg);
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                background-position: center;
+                            }
+                            
+                            .ServicesmBlock3 {
+                                display: inline;
+                                margin-left: 150px;
+                                height: 200px;
+                                width: 325px;
+                                background-image: url(../img/financial.jpg);
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                background-position: center;
+                            }
+                            
+                            .ServicesmBlock1txt {
+                                flex-direction: column;
+                                margin-top: 60%;
+                                height: 140px;
+                                width: 100%;
+                                display: flex;
+                                background-color: #10598a;
+                                color: #fff;
+                                text-shadow: 2px 2px #000000;
+                            }
+                            
+                            .ServicesmBlock2txt {
+                                flex-direction: column;
+                                margin-top: 60%;
+                                height: 140px;
+                                width: 100%;
+                                display: flex;
+                                background-color: #10598a;
+                                color: #fff;
+                                text-shadow: 2px 2px #000000;
+                            }
+                            
+                            .ServicesmBlock3txt {
+                                flex-direction: column;
+                                margin-top: 60%;
+                                height: 140px;
+                                width: 100%;
+                                display: flex;
+                                background-color: #10598a;
+                                color: #fff;
+                                text-shadow: 2px 2px #000000;
+                            }
+                            /*/////////////////////////////////////////////////
+//////////////////////////////////////////////////*/
+                            
+                            .WhyChosseUs {
+                                height: 700px;
+                                display: flex;
+                                flex-direction: column;
+                                background-color: rgb(230, 230, 230);
+                            }
+                            
+                            .WhyChosseUsText {
+                                margin-top: 75px;
+                                margin-left: 43%;
+                                text-shadow: 4px 1px #ffffff;
+                                text-shadow: 4px 1px #aaa7a7;
+                            }
+                            
+                            .WCUBlocks {
+                                display: flex;
+                                margin-top: 50px;
+                                background-color: rgb(230, 230, 230);
+                            }
+                            
+                            .WCUanim {
+                                display: inline;
+                                margin-left: 105px;
+                                height: 325px;
+                                width: 250px;
+                                background-color: #818181;
+                            }
+                            
+                            .WCUBlock1Img {
+                                margin: auto;
+                                height: 150px;
+                                width: 150px;
+                                background-image: url(../img/randomB.png);
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                background-position: center;
+                            }
+                            
+                            .WCUBlock2Img {
+                                margin: auto;
+                                height: 150px;
+                                width: 150px;
+                                background-image: url(../img/randomB.png);
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                background-position: center;
+                            }
+                            
+                            .WCUBlock3Img {
+                                margin: auto;
+                                height: 150px;
+                                width: 150px;
+                                background-image: url(../img/randomB.png);
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                background-position: center;
+                            }
+                            
+                            .WCUBlock4Img {
+                                margin: auto;
+                                height: 150px;
+                                width: 150px;
+                                background-image: url(../img/randomB.png);
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                background-position: center;
+                            }
+                            
+                            .WCUanim {
+                                color: #ffffff;
+                                text-shadow: 1px 1px #aaa7a7;
+                            }
+                            
+                            .WCUB1 {
+                                height: 35px;
+                                width: 150px;
+                                margin-left: 19%;
+                                border-radius: 5px;
+                                background-color: #10598a;
+                                color: #ffffff;
+                                text-shadow: 1px 1px #000000;
+                                display: none;
+                            }
+                            
+                            .WCUB2 {
+                                height: 35px;
+                                width: 150px;
+                                margin-left: 19%;
+                                border-radius: 5px;
+                                background-color: #10598a;
+                                color: #ffffff;
+                                text-shadow: 1px 1px #000000;
+                                display: none;
+                            }
+                            
+                            .WCUB3 {
+                                height: 35px;
+                                width: 150px;
+                                margin-left: 19%;
+                                border-radius: 5px;
+                                background-color: #10598a;
+                                color: #ffffff;
+                                text-shadow: 1px 1px #000000;
+                                display: none;
+                            }
+                            
+                            .WCUB4 {
+                                height: 35px;
+                                width: 150px;
+                                margin-left: 19%;
+                                border-radius: 5px;
+                                background-color: #10598a;
+                                color: #ffffff;
+                                text-shadow: 1px 1px #000000;
+                                display: none;
+                            }
+                            
+                            .WCUP1 {
+                                display: none;
+                                color: #000000;
+                            }
+                            
+                            .WCUP2 {
+                                display: none;
+                                color: #000000;
+                            }
+                            
+                            .WCUP3 {
+                                display: none;
+                                color: #000000;
+                            }
+                            
+                            .WCUP4 {
+                                display: none;
+                                color: #000000;
+                            }
+                            
+                            .WCUH1 {
+                                color: #000000;
+                            }
+                            
+                            .WCUH2 {
+                                color: #000000;
+                            }
+                            
+                            .WCUH3 {
+                                color: #000000;
+                            }
+                            
+                            .WCUH4 {
+                                color: #000000;
+                            }
+                            
+                            .WCUanim {
+                                background-color: rgb(191, 206, 206);
+                                transition: 0.5s;
+                            }
+                            
+                            .WCUanim:hover {
+                                background-color: #00aebb;
+                            }
+                            /*----------------------------*/
+                            
+                            .WCUanim:hover .WCUBlock1Img {
+                                background-image: url(../img/randomW.png)
+                            }
+                            
+                            .WCUanim:hover .WCUB1 {
+                                display: block;
+                            }
+                            
+                            .WCUanim:hover .WCUP1 {
+                                display: block;
+                                color: #ffffff;
+                            }
+                            
+                            .WCUanim:hover .WCUH1 {
+                                color: #ffffff;
+                            }
+                            
+                            .WCUanim:hover .WCUBlock2Img {
+                                background-image: url(../img/randomW.png)
+                            }
+                            
+                            .WCUanim:hover .WCUB2 {
+                                display: block;
+                            }
+                            
+                            .WCUanim:hover .WCUP2 {
+                                display: block;
+                                color: #ffffff;
+                            }
+                            
+                            .WCUanim:hover .WCUH2 {
+                                color: #ffffff;
+                            }
+                            
+                            .WCUanim:hover .WCUBlock3Img {
+                                background-image: url(../img/randomW.png)
+                            }
+                            
+                            .WCUanim:hover .WCUB3 {
+                                display: block;
+                            }
+                            
+                            .WCUanim:hover .WCUP3 {
+                                display: block;
+                                color: #ffffff;
+                            }
+                            
+                            .WCUanim:hover .WCUH3 {
+                                color: #ffffff;
+                            }
+                            
+                            .WCUanim:hover .WCUBlock4Img {
+                                background-image: url(../img/randomW.png)
+                            }
+                            
+                            .WCUanim:hover .WCUB4 {
+                                display: block;
+                            }
+                            
+                            .WCUanim:hover .WCUP4 {
+                                display: block;
+                                color: #ffffff;
+                            }
+                            
+                            .WCUanim:hover .WCUH4 {
+                                color: #ffffff;
+                            }
+                            /*--------------------*/
+                            /*/////////////////////////////////////////////////
+//////////////////////////////////////////////////*/
+                            
+                            .part3 {
+                                display: flex;
+                                height: 500px;
+                                width: 100%;
+                                background-color: #10598a;
+                            }
+                            
+                            .RACB1 {
+                                margin-top: 100px;
+                                display: inline-block;
+                            }
+                            
+                            .text1 {
+                                margin-left: 100px;
+                                font-size: 50px;
+                                display: inline;
+                                color: #fff;
+                                text-shadow: 2px 1px #000000;
+                            }
+                            
+                            .Line1 {
+                                height: 50px;
+                                margin-left: 50px;
+                                font-size: 30px;
+                                display: inline;
+                                border-radius: 5px;
+                            }
+                            
+                            .Line2 {
+                                height: 50px;
+                                margin-left: 50px;
+                                font-size: 30px;
+                                display: inline;
+                                border-radius: 5px;
+                            }
+                            
+                            .RACB2 {
+                                margin-top: 50px;
+                                display: flex;
+                            }
+                            
+                            .text2 {
+                                margin-top: 8px;
+                                display: flex;
+                                margin-left: 100px;
+                                font-size: 25px;
+                                color: #fff;
+                                text-shadow: 2px 1px #000000;
+                                height: 50px;
+                                width: 425px;
+                            }
+                            
+                            .Line3 {
+                                margin-top: 8px;
+                                height: 50px;
+                                width: 380px;
+                                margin-left: 50px;
+                                font-size: 30px;
+                                display: inline;
+                                color: #5f5f5f;
+                                border-radius: 5px;
+                            }
+                            
+                            .Submit1 {
+                                margin-left: 50px;
+                                height: 60px;
+                                width: 190px;
+                                background-color: #0eaa00;
+                                color: #fff;
+                                font-size: 25px;
+                                border-radius: 5px;
+                            }
+                            /*/////////////////////////////////////////////////
+//////////////////////////////////////////////////*/
+                            
+                            .FP {
+                                height: 600px;
+                                display: flex;
+                                flex-direction: column;
+                                background-color: rgb(230, 230, 230);
+                            }
+                            
+                            .FP1 {
+                                display: flex;
+                                font-size: 20px;
+                                width: 100%;
+                                margin-top: 10px;
+                                margin-left: 40%;
+                                text-shadow: 3px 1px #5a5959;
+                            }
+                            
+                            .FP2 {
+                                display: flex;
+                                margin-top: 20px;
+                            }
+                            /*------------*/
+                            
+                            .FPB1C {
+                                margin-left: 180px;
+                                display: flex;
+                                display: inline;
+                                height: 300px;
+                                width: 325px;
+                                background-image: url(../img/work.jpg);
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                background-position: center;
+                            }
+                            
+                            .FPBOX1R {
+                                visibility: hidden;
+                                margin-left: 180px;
+                                display: flex;
+                                display: inline;
+                                height: 300px;
+                                width: 325px;
+                                color: #fff;
+                                text-shadow: 1px 1px #000000;
+                            }
+                            
+                            .FPBOX1fon {
+                                margin-top: -258px;
+                                height: 100%;
+                                width: 100%;
+                                background-color: rgba(0, 174, 187, 0.459);
+                            }
+                            
+                            .FPB1 {
+                                margin-top: 35px;
+                                margin-left: 10%;
+                                height: 50px;
+                                width: 150px;
+                                background-color: #00aebb;
+                                color: #fff;
+                                border-radius: 5px;
+                            }
+                            
+                            .FPBOX1 {
+                                visibility: visible;
+                                margin-top: -96px;
+                                height: 75px;
+                                width: 100%;
+                                background-color: #00aebb7c;
+                            }
+                            /*----------------------------------------------------------------------
+-----------------------------------------------------------------*/
+                            
+                            .FPB2C {
+                                margin-left: 100px;
+                                display: flex;
+                                display: inline;
+                                height: 300px;
+                                width: 325px;
+                                background-image: url(../img/work3.png);
+                                background-color: rgb(255, 255, 255);
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                background-position: center;
+                            }
+                            
+                            .FPBOX2R {
+                                visibility: hidden;
+                                margin-left: 180px;
+                                display: flex;
+                                display: inline;
+                                height: 300px;
+                                width: 325px;
+                                color: #fff;
+                                text-shadow: 1px 1px #000000;
+                            }
+                            
+                            .FPBOX2fon {
+                                margin-top: -258px;
+                                height: 100%;
+                                width: 100%;
+                                background-color: rgba(0, 174, 187, 0.459);
+                            }
+                            
+                            .FPB2 {
+                                margin-top: 35px;
+                                margin-left: 10%;
+                                height: 50px;
+                                width: 150px;
+                                background-color: #00aebb;
+                                color: #fff;
+                                border-radius: 5px;
+                            }
+                            
+                            .FPBOX2 {
+                                visibility: visible;
+                                margin-top: -96px;
+                                height: 75px;
+                                width: 100%;
+                                background-color: #00aebb7c;
+                            }
+                            /*----------------------------------------------------------------------
+-----------------------------------------------------------------*/
+                            
+                            .FPB3C {
+                                margin-left: 100px;
+                                display: flex;
+                                display: inline;
+                                height: 300px;
+                                width: 325px;
+                                background-image: url(../img/work2.jpg);
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                background-position: center;
+                            }
+                            
+                            .FPBOX3R {
+                                visibility: hidden;
+                                margin-left: 180px;
+                                display: flex;
+                                display: inline;
+                                height: 300px;
+                                width: 325px;
+                                color: #fff;
+                                text-shadow: 1px 1px #000000;
+                            }
+                            
+                            .FPBOX3fon {
+                                margin-top: -258px;
+                                height: 100%;
+                                width: 100%;
+                                background-color: rgba(0, 174, 187, 0.459);
+                            }
+                            
+                            .FPB3 {
+                                margin-top: 35px;
+                                margin-left: 10%;
+                                height: 50px;
+                                width: 150px;
+                                background-color: #00aebb;
+                                color: #fff;
+                                border-radius: 5px;
+                            }
+                            
+                            .FPBOX3 {
+                                visibility: visible;
+                                margin-top: -96px;
+                                height: 75px;
+                                width: 100%;
+                                background-color: #00aebb7c;
+                            }
+                            /*-------------------------------*/
+                            
+                            .FPB1C:hover .FPBOX1R {
+                                visibility: visible;
+                            }
+                            
+                            .FPB1C:hover .FPBOX1 {
+                                visibility: hidden;
+                            }
+                            
+                            .FPB2C:hover .FPBOX2R {
+                                visibility: visible;
+                            }
+                            
+                            .FPB2C:hover .FPBOX2 {
+                                visibility: hidden;
+                            }
+                            
+                            .FPB3C:hover .FPBOX3R {
+                                visibility: visible;
+                            }
+                            
+                            .FPB3C:hover .FPBOX3 {
+                                visibility: hidden;
+                            }
+                            /*/////////////////////////////////////////////////
+//////////////////////////////////////////////////*/
+                            
+                            .PAS {
+                                width: 100%;
+                                height: 300px;
+                            }
+                            
+                            .PASfon1 {
+                                width: 100%;
+                                height: 100%;
+                                background-image: url(../img/offis.jpg);
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                background-position: center;
+                            }
+                            
+                            .PASfon2 {
+                                width: 100%;
+                                height: 100%;
+                                background-color: #012f44cb;
+                                margin-top: -300px;
+                            }
+                            
+                            .PAStxt1 {
+                                margin-top: -270px;
+                                width: 100%;
+                                display: flex;
+                                font-size: 40px;
+                                color: #fff;
+                            }
+                            
+                            .SAPtxt1 {
+                                margin-left: 400px;
+                            }
+                            
+                            .SAPtxt2 {
+                                margin-left: 150px;
+                            }
+                            
+                            .SAPtxt3 {
+                                margin-left: 150px;
+                            }
+                            
+                            .PAStxt2 {
+                                margin-top: -75px;
+                                width: 100%;
+                                display: flex;
+                                font-size: 20px;
+                                color: #fff;
+                            }
+                            
+                            .SAPtxt4 {
+                                width: 300px;
+                                margin-left: 400px;
+                            }
+                            
+                            .SAPtxt5 {
+                                width: 300px;
+                                margin-left: -20px;
+                            }
+                            
+                            .SAPtxt6 {
+                                width: 300px;
+                                margin-left: -20px;
+                            }
+                            /*/////////////////////////////////////////////////
+//////////////////////////////////////////////////*/
+                            
+                            .LFN1 {
+                                display: flex;
+                                width: 100%;
+                                height: 200px;
+                                background-color: rgb(230, 230, 230);
+                            }
+                            
+                            .LFN1txt {
+                                margin-top: 100px;
+                                margin-left: 37%;
+                                font-size: 50px;
+                                text-shadow: 2px 1px #5a5959;
+                            }
+                            
+                            .LFN2 {
+                                display: flex;
+                                height: 600px;
+                                width: 100%;
+                                background-color: rgb(230, 230, 230);
+                            }
+                            
+                            .LFNBlock1 {
+                                margin-top: 50px;
+                                margin-left: 180px;
+                                height: 500px;
+                                width: 350px;
+                                background-color: #803030;
+                            }
+                            
+                            .LFNBlock2 {
+                                margin-top: 50px;
+                                margin-left: 50px;
+                                height: 500px;
+                                width: 350px;
+                                background-color: #803030;
+                            }
+                            
+                            .LFNBlock3 {
+                                margin-top: 50px;
+                                margin-left: 50px;
+                                height: 500px;
+                                width: 350px;
+                                background-color: #803030;
+                            }
+                            
+                            .LFNin1 {
+                                height: 250px;
+                                width: 100%;
+                                background-image: url(../img/business.jpg);
+                            }
+                            
+                            .LFNin2 {
+                                height: 250px;
+                                width: 100%;
+                                background-image: url(../img/business.jpg);
+                            }
+                            
+                            .LFNin3 {
+                                height: 250px;
+                                width: 100%;
+                                background-image: url(../img/business.jpg);
+                            }
+                            /*------------------------------------------------------------*/
+                            
+                            .LFNtext1in1 {
+                                margin-left: 40px;
+                                font-size: 30px;
+                            }
+                            
+                            .LFNleftimg {
+                                margin-top: 20px;
+                                margin-left: 30px;
+                                height: 20px;
+                                width: 20px;
+                            }
+                            
+                            .LFNLefttxt {
+                                display: inline;
+                            }
+                            
+                            .LFNtext1in2left {
+                                display: inline;
+                            }
+                            
+                            .LFNtext1in2right {
+                                display: inline;
+                            }
+                            
+                            .LFNrightimg {
+                                height: 20px;
+                                width: 20px;
+                            }
+                            
+                            .LFNrighttxt {
+                                display: inline;
+                            }
+                            
+                            .LFNB {
+                                height: 50px;
+                                width: 150px;
+                                margin-left: 40px;
+                                background-color: #0eaa00;
+                                color: #fff;
+                            }
+                            /*/////////////////////////////////////////////////
+//////////////////////////////////////////////////*/
+                            
+                            .BP {
+                                display: flex;
+                                height: 200px;
+                                width: 100%;
+                                background-color: rgb(230, 230, 230);
+                            }
+                            
+                            .BP1 {
+                                display: flex;
+                                margin-top: 75px;
+                                margin-left: 41%;
+                            }
+                            
+                            .BP2 {
+                                display: flex;
+                                height: 300px;
+                                background-color: rgb(230, 230, 230);
+                            }
+                            
+                            .BP1Img {
+                                display: inline;
+                                height: 200px;
+                                width: 200px;
+                                margin-top: 25px;
+                                margin-left: 150px;
+                                background-image: url(../img/Ilutsa.png);
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                background-position: center;
+                            }
+                            
+                            .BP2Img {
+                                display: inline;
+                                height: 200px;
+                                width: 200px;
+                                margin-top: 25px;
+                                margin-left: 50px;
+                                background-image: url(../img/Ilutsa.png);
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                background-position: center;
+                            }
+                            /*/////////////////////////////////////////////////
+//////////////////////////////////////////////////*/
+                            
+                            .part7 {
+                                display: flex;
+                                width: 100%;
+                                height: 600px;
+                                flex-wrap: wrap;
+                                color: #fff;
+                                background: linear-gradient(rgba(9, 54, 94, 0.75), rgba(9, 54, 94, 0.75)), url(../img/deal.jfif);
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                background-position: center;
+                            }
+                            
+                            .TSS1 {
+                                margin-left: 37%;
+                                margin-top: 50px;
+                                font-size: 35px;
+                            }
+                            /*--------------------------------------------------*/
+                            
+                            .TSS2 {
+                                display: flex;
+                                margin-top: -50px;
+                                font-size: 35px;
+                            }
+                            
+                            .TSSL {
+                                display: flex;
+                                height: 300px;
+                                width: 600px;
+                                margin-left: 150px;
+                                background-color: #00000000;
+                                outline: 2px solid #000;
+                            }
+                            
+                            .TSSR {
+                                display: inline;
+                                height: 300px;
+                                width: 600px;
+                                margin-left: 50px;
+                                background-color: #ffffff00;
+                                outline: 2px solid #000;
+                            }
+                            
+                            .TSSL1 {
+                                height: 100px;
+                                width: 100px;
+                                margin-top: 50px;
+                                margin-left: 20px;
+                                background-image: url(../img/Ilutsa.png);
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                background-position: center;
+                            }
+                            
+                            .TSSL2 {
+                                display: inline;
+                                height: 100px;
+                                width: 150;
+                                margin-left: 25px;
+                                margin-top: 50px;
+                            }
+                            
+                            .txt1l {
+                                text-align: left;
+                                font-size: 30px;
+                            }
+                            
+                            .txt2l {
+                                text-align: left;
+                                width: 200px;
+                                font-size: 20px;
+                            }
+                            
+                            .txt3l {
+                                text-align: left;
+                                width: 400px;
+                                font-size: 25px;
+                            }
+                            /*----------------------------*/
+                            
+                            .TSSR2 {
+                                height: 100px;
+                                width: 100px;
+                                margin-top: -135px;
+                                margin-left: 450px;
+                                background-image: url(../img/Ilutsa.png);
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                background-position: center;
+                            }
+                            
+                            .TSSLR2 {
+                                height: 100px;
+                                width: 150;
+                                margin-left: 25px;
+                                margin-top: 50px;
+                            }
+                            
+                            .txtr {
+                                margin-top: 75px;
+                                height: 40%;
+                                width: 400px;
+                            }
+                            
+                            .txt1r {
+                                text-align: right;
+                                font-size: 30px;
+                            }
+                            
+                            .txt2r {
+                                text-align: right;
+                                width: 200px;
+                                font-size: 20px;
+                                margin-left: 200px;
+                            }
+                            
+                            .txt3r {
+                                text-align: right;
+                                width: 400px;
+                                font-size: 25px;
+                            }
+                            /*/////////////////////////////////////////////////
+//////////////////////////////////////////////////*/
+                            
+                            .SU1 {
+                                display: flex;
+                                height: 200px;
+                                width: 100%;
+                                background-color: rgb(230, 230, 230);
+                                font-size: 35px;
+                            }
+                            
+                            .SU1txt {
+                                margin-top: 75px;
+                                margin-left: 42%;
+                            }
+                            
+                            .SU2 {
+                                display: flex;
+                                width: 100%;
+                                height: 100px;
+                                background-color: rgb(230, 230, 230);
+                            }
+                            
+                            .SU2txt {
+                                margin-left: 25%;
+                            }
+                            /*+---------------------------*/
+                            
+                            .SU3 {
+                                display: flex;
+                                width: 100%;
+                                height: 200px;
+                                background-color: rgb(230, 230, 230);
+                            }
+                            
+                            .SU3in {
+                                display: flex;
+                                height: 50px;
+                                width: 900px;
+                                margin-top: 50px;
+                                margin-left: 23%;
+                            }
+                            
+                            .SUemail {
+                                background-color: #15ff0025;
+                                outline: 2px solid rgb(0, 255, 34);
+                                width: 600px;
+                            }
+                            
+                            .SUsubmit {
+                                width: 200px;
+                                background-color: #0eaa00;
+                                color: #fff;
+                                outline: 2px solid rgb(0, 255, 34);
+                            }
+                            /*/////////////////////////////////////////////////
+//////////////////////////////////////////////////*/
+                            
+                            .part9 {
+                                display: flex;
+                                height: 450px;
+                                width: 100%;
+                                color: #fff;
+                                background: linear-gradient(rgba(9, 54, 94, 0.75), rgba(9, 54, 94, 0.75)), url(../img/ofis2.jpg);
+                                background-position: center;
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                            }
+                            
+                            .Fin1 {
+                                height: 350px;
+                                width: 300px;
+                                margin-top: 20px;
+                                margin-left: 125px;
+                            }
+                            
+                            .Fin2 {
+                                height: 350px;
+                                width: 300px;
+                                margin-top: 20px;
+                                margin-left: 20px;
+                            }
+                            
+                            .Fin3 {
+                                height: 350px;
+                                width: 300px;
+                                margin-top: 20px;
+                                margin-left: 20px;
+                            }
+                            
+                            .Fin4 {
+                                height: 350px;
+                                width: 300px;
+                                margin-top: 20px;
+                                margin-left: 20px;
+                            }
+                            /*-------------------------------------------------------
+--------------------------------------------------------
+-----------------------------------------------------*/
+                            
+                            .Fin1txt1 {
+                                margin-left: 30px;
+                                text-align: left;
+                            }
+                            
+                            .Fin1txt2 {
+                                width: 90%;
+                                margin-left: 30px;
+                                text-align: left;
+                            }
+                            
+                            .Fin1img {
+                                margin-left: 20px;
+                            }
+                            
+                            .fimg1 {
+                                margin-left: 5px;
+                                height: 40px;
+                                width: 40px;
+                            }
+                            /*----------------------------------------*/
+                            
+                            .Fin2txt1 {
+                                margin-left: 30px;
+                            }
+                            
+                            .F2img {
+                                height: 30px;
+                                width: 30px;
+                            }
+                            
+                            .F2txt2 {
+                                display: inline;
+                                font-size: 20px;
+                                margin-left: 10px;
+                            }
+                            
+                            .F3line {
+                                display: flex;
+                            }
+                            
+                            .F3img {
+                                height: 30px;
+                                width: 30px;
+                                margin-top: 10px;
+                            }
+                            
+                            .F2txt3 {
+                                display: inline;
+                                font-size: 20px;
+                                margin-left: 10px;
+                            }
+                            
+                            .F2phone {
+                                display: inline;
+                                font-size: 12px;
+                                margin-left: 25px;
+                            }
+                            /*-------------------------------------*/
+                            
+                            .Fin3txt2 {
+                                display: flex;
+                            }
+                            
+                            .ul1 {
+                                font-size: 25px;
+                            }
+                            
+                            .ul2 {
+                                font-size: 25px;
+                                margin-top: -168px;
+                                margin-left: 130px;
+                            }
+                            /*----------------------*/
+                            
+                            .F4txt1 {
+                                margin-left: 20px;
+                            }
+                            
+                            .F4photo1 {
+                                height: 75px;
+                                width: 75px;
+                            }
+                            
+                            .F4photo2 {
+                                display: inline;
+                                margin-left: 5px;
+                                height: 75px;
+                                width: 75px;
+                            }
+                            
+                            .F4photo3 {
+                                display: inline;
+                                margin-left: 5px;
+                                height: 75px;
+                                width: 75px;
+                            }
+                            
+                            .F4photo4 {
+                                height: 75px;
+                                width: 75px;
+                            }
+                            
+                            .F4photo5 {
+                                display: inline;
+                                margin-left: 5px;
+                                height: 75px;
+                                width: 75px;
+                            }
+                            
+                            .F4photo6 {
+                                display: inline;
+                                margin-left: 5px;
+                                height: 75px;
+                                width: 75px;
+                            }
+                            /*------------------------*/
+                            
+                            .F4Img1 {
+                                margin-left: 20px;
+                            }
+                            
+                            .F4Img2 {
+                                margin-left: 20px;
+                            }
+                            /*/////////////////////////////////////////////////
+//////////////////////////////////////////////////*/
+                            
+                            .part10 {
+                                display: flex;
+                                width: 100%;
+                                height: 30px;
+                                background-color: #10598a;
+                            }
+                            
+                            .part10txt {
+                                margin-top: -1px;
+                                margin-left: 35%;
+                                font-size: 20px;
+                            }
